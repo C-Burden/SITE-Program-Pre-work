@@ -1,0 +1,90 @@
+/* a minimalist set of CSS resets */
+@import url("https://fonts.googleapis.com/css2?family=Anybody&family=Baloo+Tamma+2&family=Bellota+Text:wght@700&display=swap");
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 5rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: orange;
+  text-align: center;
+}
+h1 {
+  font-family: "Anybody", cursive;
+  color: rgb(255, 150, 100);
+  font-size: 36px;
+}
+p {
+  font-family: "Anybody", cursive;
+}
+button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: orange solid 2px;
+  margin: 2rem;
+  background-color: white;
+  font-family: "Anybody", cursive;
+  color: rgb(255, 150, 100);
+}
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  border: none;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+  background: lightgreen;
+}
+#button1:active,
+#button1.lit {
+  background: yellowgreen;
+}
+#button2 {
+  background: lightblue;
+}
+#button2:active,
+#button2.lit {
+  background: royalblue;
+}
+#button3 {
+  background: pink;
+}
+#button3:active,
+#button3.lit {
+  background: hotpink;
+}
+#button4 {
+  background: mediumaquamarine;
+}
+#button4:active,
+#button4.lit {
+  background: seagreen;
+}
+#button5 {
+  background: khaki;
+}
+#button5:active,
+#button5.lit {
+  background: gold;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
