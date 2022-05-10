@@ -62,10 +62,6 @@ The following **additional** features are implemented:
 
    The first thing I would do if I worked on the project further would be to add an infinite sequence pattern that could be guessed in the game. Instead of ending the game when the user guesses the entire 8 number long pattern, I would make the game last until the user guessed incorrectly. The score of the user would be the length of the array up until the incorrect input. This would be displayed as a high score and would be replaced if the user is able to beat their previous high score. I believe that with more time I would be able to implement this utilizing the current programming languages in the project. However, to get the high score to stay once the page is refreshed may require the use of another language.
 
-## Interview Recording URL Link
-
-https://drive.google.com/file/d/1e116DS5-i6KXtsuLnTNIyhMrxNdAiPMH/view?usp=sharing
-
 ## License
 
     Copyright Christina Burden
